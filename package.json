@@ -1,8 +1,7 @@
 {
   "name": "node-postgres-named",
   "description": "Named parameters for node-postgres.",
-  "version": "2.4.1",
-  "private": false,
+  "version": "2.4.2",
   "main": "./main",
   "engines": {
     "iojs": ">= 1",
@@ -17,14 +16,17 @@
     "url": "https://github.com/bwestergard/node-postgres-named.git"
   },
   "devDependencies": {
-    "mocha": "~3.1.2",
     "chai": "~3.4.1",
-    "jshint": "~2.9.1-rc1"
+    "jshint": "~2.9.1-rc1",
+    "mocha": "~3.1.2"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha",
     "test-watch": "./node_modules/mocha/bin/mocha --watch",
     "test-debug": "./node_modules/mocha/bin/mocha debug",
     "lint": "./node_modules/jshint/bin/jshint ."
+  },
+  "publishConfig": {
+    "registry": "https://nexus.pucaplataform.com.br/repository/puca-dev/"
   }
 }

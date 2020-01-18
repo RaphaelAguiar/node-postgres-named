@@ -1,5 +1,5 @@
 {
-  "name": "node-postgres-named",
+  "name": "puca-node-postgres-named",
   "description": "Named parameters for node-postgres.",
   "version": "2.4.2",
   "main": "./main",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bwestergard/node-postgres-named.git"
+    "url": "https://github.com/RaphaelAguiar/node-postgres-named"
   },
   "devDependencies": {
     "chai": "~3.4.1",

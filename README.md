@@ -57,7 +57,7 @@ Create a client as usual, then call the patch function on it. It will be patched
 
 ```javascript
 var pg = require('pg'); 
-var named = require('node-postgres-named');
+var named = require('puca-node-postgres-named');
 var client = new pg.Client(conString);
 named.patch(client);
 ```

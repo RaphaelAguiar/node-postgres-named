@@ -27,7 +27,7 @@ Client.prototype.query = function(sql, values, callback) {
 var client = new Client();
 named.patch(client);
 
-describe('node-postgres-named', function () {
+describe('puca-node-postgres-named', function () {
   describe('Parameter translation', function () {
     it('Basic Interpolation', function () {
       var results = client.query("$a $b $c", {'a': 10, 'b': 20, 'c': 30});
